@@ -68,7 +68,8 @@ export default function LandingPage() {
               </span>
             </div>
 
-            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-janeriano-marino leading-tight flex flex-row justify-center items-center gap-2 md:gap-4 whitespace-nowrap drop-shadow-md">
+            {/* TÍTULO CORREGIDO PARA MÓVILES (flex-wrap y text-3xl en base) */}
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-janeriano-marino leading-tight flex flex-wrap justify-center items-center gap-x-2 md:gap-x-4 gap-y-2 drop-shadow-md">
               <span>Educar</span>
               <span className="text-janeriano-azul/50 text-2xl md:text-4xl">•</span>
               <span>Acompañar</span>
